@@ -68,12 +68,12 @@ form{
     margin-top: 3rem;
 }
 
-label{
+form label{
     font-weight: 600;
     margin: 1rem;
 }
 
-input{
+textarea input{
     border: 1px solid #F8FBFF;
     border-radius: 16px;
     padding: 1rem 2rem;
