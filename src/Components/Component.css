@@ -73,7 +73,7 @@ form label{
     margin: 1rem;
 }
 
-textarea input{
+textarea,input{
     border: 1px solid #F8FBFF;
     border-radius: 16px;
     padding: 1rem 2rem;
