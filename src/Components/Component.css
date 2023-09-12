@@ -1,0 +1,265 @@
+/**employee table **/
+
+table{
+    border: 1px solid #D5D5D5;
+    border-radius: 30px;
+}
+
+td,th{
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem 1rem 2rem 3rem;
+    text-align: start;
+}
+
+th{
+    border-bottom: 1px solid #D5D5D5;
+}
+
+td:nth-last-child(1){
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.employee-list h1{
+   margin-bottom: 2rem;
+}
+
+.option-btn{
+    cursor: pointer;
+}
+
+.option-container{
+    position: absolute;
+    border: 1px solid #D5D5D5;
+    padding: 0.5rem;
+    right: -1rem;
+    top: 2rem;
+    z-index: 1;
+    background-color:white;
+}
+
+.option-container ul li {
+    list-style: none;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.background-toggle{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+
+/**registration form css **/
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+label{
+    font-weight: 600;
+    margin: 1rem;
+}
+
+input{
+    border: 1px solid #F8FBFF;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+
+
+
+input::placeholder{
+    color: #7E98BA;
+    font-weight: 600;
+}
+
+.name,.date{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.action-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="button"]{
+   background-color: #E3E3E3;
+   padding: 1rem;
+   border-radius: 13px;
+   width: 18rem;
+   color: #263857;
+   font-weight: 600;
+}
+
+button{
+    background-color: #E3E3E3;
+    padding: 0.4rem;
+    height: 3rem;
+    border-radius: 13px;
+    width: 10rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #263857;
+    font-weight: 600;
+    border: none;
+    margin: 1rem;
+}
+
+
+
+/**dropdown css**/
+
+.drop-downs{
+    display: flex;
+    gap: 5rem;
+}
+
+.select-employee{
+    cursor: pointer;
+}
+
+.search-list{
+    background-color: #142A51;
+    border-radius: 12px;
+    padding: 0.1rem 0.2rem;
+} 
+
+.search-employee-input{
+    margin: 0;
+    width: 100%;
+    background-color: #1C3663;
+    border: 1px solid #1C3663;
+    color: white ;
+    border-radius: 8px;
+}
+
+.search-employee-input::placeholder{
+    color: #6F8BBC;
+}
+
+.search-employee-input:focus{
+    outline: #6F8BBC ;
+    border-color: #6F8BBC ;
+}
+
+.search-list p{
+    color: #DAE2EF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-list ul li{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.5rem;
+}
+
+.checkName{
+    background-color: #142A51;
+}
+
+
+.count-container{
+    display: flex;
+    position: relative;
+    top: 3.4rem;
+    z-index: 1;
+    width: max-content;
+}
+
+.in-search-count{
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MuiDateCalendar-root{
+    background-color: #25406D;
+    border-radius: 12px;
+    color: white;
+}
+
+div.MuiDayCalendar-weekContainer > button{
+    color: white;
+}
+
+span.MuiTypography-root{
+    color: #6F8BBC;
+}
+
+button.MuiIconButton-root{
+    color: #346BD1;
+}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root{
+    width: 2rem;
+}
+
+.Mui-selected{
+    background-color: #346BD1;
+    border-radius: 8px;
+}
+
+.MuiPickersDay-today{
+    border: none;
+}
+
+/**profilecss**/
+.profile{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #142A51;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third,.second{
+  position: absolute;
+  z-index: -1;
+  left: 8px;
+}
+
+.third{
+    left: 15px;
+    z-index: -2;
+}
+
+.white{
+    border: 3px solid white;
+}
+
+.blue{
+    background-color: #556E9A;
+    border: 3px solid #142A51;
+}
+
+.profile img{
+    width: 28px;
+}
+
+/**calender styles**/
+.css-k6djow-MuiFormLabel-root-MuiInputLabel-root{
+    top: -5px;
+}

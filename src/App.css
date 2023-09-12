@@ -1,0 +1,9 @@
+
+main{
+  width: 100%;
+}
+
+.main-content{
+  width: max-content;
+  margin: 1rem auto;
+}
